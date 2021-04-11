@@ -1,5 +1,3 @@
-class Artist < ActiveRecord::Base
-
-    has_many :songs
-  
-  end
+class Artist < ApplicationRecord
+  has_many :songs 
+end

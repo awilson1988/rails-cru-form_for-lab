@@ -1,5 +1,3 @@
-<% @songs.each do |song| %>
-
-    <p><%= song.name %></p>
-  
-  <% end %> 
+<p><% @songs.each do |s| %>
+  <%= s.name %><br>
+<% end %></p>
